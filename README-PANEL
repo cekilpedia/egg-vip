@@ -1,0 +1,19 @@
+Jangan hapus file run.js,
+jika ingin mengganti startup command, cukup ganti saja jangan hapus run.js
+
+#RUN BOT
+ketik seperti di termux, tetapi semua sudah terinstal, jadi kalian hanya perlu ketik untuk run bot
+contoh: npm i, yarn, node index, pm2 
+jika npm error, gunakan pnpm install
+
+#CARA RUN BOT
+$ cd namasc (sesuain sama nama sc kalian)
+$ npm install (jika belum ada module)
+$ npm start
+
+$CARA RUN PM2
+$ cd namasc (sesuain sama nama sc kalian)
+$ pm2 start ??.js
+$ pm2 save
+
+di pm2 start ??.js itu sesuain sama sc kalian cara cek nya di package.json
