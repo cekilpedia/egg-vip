@@ -10,7 +10,7 @@
     "description": null,
     "features": null,
     "docker_images": {
-        "VIP EGGS BY CEKIL": "ghcr.io\/cekilpedia\/vip:vrexzbycekil"
+        "VIP EGGS BY CEKIL": "ghcr.io\/cekilpedia\/vip:rizalbycekil"
     },
     "file_denylist": [],
     "startup": "\/usr\/local\/bin\/${CUSTOM_STARTUP}",
@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "apt update\r\napt install curl -y\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server\r\n\r\nrm -rf .config\r\nmkdir .config\r\nmkdir .config\/neofetch\r\n\r\ncurl -s https:\/\/raw.githubusercontent.com\/cekilpedia\/egg-vip\/cekilegg\/README-egg-vip --output BY-CEKIL\r\ncurl -s https:\/\/raw.githubusercontent.com\/cekilpedia\/egg-vip\/cekilegg\/frexzbycekil.conf --output .config\/neofetch\/config.conf",
+            "script": "apt update\r\napt install curl -y\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server\r\n\r\nrm -rf .config\r\nmkdir .config\r\nmkdir .config\/neofetch\r\n\r\ncurl -s https:\/\/raw.githubusercontent.com\/cekilpedia\/egg-vip\/cekilegg\/README-egg-vip --output BY-CEKIL\r\ncurl -s https:\/\/raw.githubusercontent.com\/cekilpedia\/egg-vip\/cekilegg\/rizal.conf --output .config\/neofetch\/config.conf",
             "container": "node:19",
             "entrypoint": "bash"
         }
